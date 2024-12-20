@@ -1,0 +1,3 @@
+C:/Users/90541/CLionProjects/projealgoritma/cmake-build-debug/CMakeFiles/projealgoritma.dir
+C:/Users/90541/CLionProjects/projealgoritma/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/90541/CLionProjects/projealgoritma/cmake-build-debug/CMakeFiles/rebuild_cache.dir
