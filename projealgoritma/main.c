@@ -29,6 +29,10 @@ int main() {
 
     //Sipariş dosyasını açalım ve toplam kalori hesabını yapalım
     siparis_dosyasi = fopen("C:\\Users\\90541\\Desktop\\siparis.txt", "r");
+    if(siparis_dosyasi == NULL){
+        printf("Siparis dosyası bulunamadı!")
+            return 1;
+            }
     while (fscanf(siparis_dosyasi, "%s %d", siparis, &adet) != EOF) {
         for (int j = 0; j < MAX_SIZE; j++) {
             if (strcmp(siparis, yemekler[j].isim) == 0) {
